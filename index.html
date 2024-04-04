@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page listing</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="line"></div>
+      <div class="line"></div>
+    </header>
+    <div class="page_input">
+      <input type="text" />
+      <button class="add">add</button>
+    </div>
+    <main class="main">
+      <ul class="page__list">
+        <template class="page__template">
+          <li class="page__item">
+            <img class="page__image" src="https://palcehold.co/50" alt="" />
+
+            <div class="main__wrapper">
+              <p class="page__company">Photsnap</p>
+              <h4 class="page__title">Senior Frontend Developer</h4>
+              <p class="page__place">1d ago | Full Time | USA only</p>
+            </div>
+            <p class="page__languages"></p>
+          </li>
+        </template>
+      </ul>
+    </main>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
